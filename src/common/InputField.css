@@ -1,0 +1,95 @@
+.InputField-general {
+    border: none;
+    height: 60px;
+    opacity: 1;
+    padding-top: 21px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    outline: none;
+
+    text-align: left;
+    font: normal normal 600 16px/19px Public Sans;
+    letter-spacing: 0px;
+    color: #222222;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+
+.ProfileForm-name {
+    top: 479px;
+    left: 692px;
+    width: 260px;
+    margin-right: 16px;
+}
+
+.ProfileForm-lastname {
+    top: 479px;
+    left: 968px;
+    width: 260px;
+}
+
+.ProfileForm-email {
+    top: 563px;
+    left: 692px;
+    width: 536px;
+}
+
+.ProfileForm-street {
+    top: 647px;
+    left: 692px;
+    width: 398px;
+    margin-right: 16px;
+}
+
+.ProfileForm-houseNr {
+    top: 647px;
+    left: 1106px;
+    width: 122px;
+}
+
+.ProfileForm-zipCode {
+    top: 731px;
+    left: 692px;
+    width: 208px;
+    margin-right: 16px;
+}
+
+
+.ProfileForm-city {
+    top: 731px;
+    left: 916px;
+    width: 312px;
+}
+
+.InputField-withoutBackground {
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: unset;
+    color: #555 !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #555555 !important;
+
+}
+
+.InputField-withBackground {
+    background: #F1F2F6 0% 0% no-repeat padding-box !important;
+    border-radius: 15px;
+}
+
+.InputField-valid {
+    border-bottom: 1px solid #1DD1A1;
+}
+
+.InputField-error {
+    border-bottom: 1px solid #FF0000;
+    color: #FF0000;
+}
+
+.InputField-disabled {
+    background: #F1F2F6 0% 0% no-repeat padding-box !important;
+}
+
+

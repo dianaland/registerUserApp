@@ -1,0 +1,49 @@
+.ProfileForm-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 48px 48px 48px;
+}
+
+.ProfileForm-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ProfileForm-headerPicture {
+    display: flex;
+    grid-column: 1 / 3;
+    grid-row: 1 / 5;
+    justify-content: center;
+}
+
+.ProfileForm-group {
+    display: flex;
+    flex-direction: row;
+    width: 536px;
+    margin-bottom: 24px;
+}
+
+.ProfileForm-group2 {
+    display: flex;
+    flex-direction: row;
+    width: 536px;
+    margin-bottom: 32px;
+}
+
+.ProfileForm-picture {
+    display: flex;
+    flex-direction: row;
+    width: 260px;
+    height: 260px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+.ProfileForm-buttonWrapper {
+    display: flex;
+    width: 536px;
+    justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+.Picture-outerWrapper {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F1F2F6 0% 0% no-repeat padding-box;
+    border: 10px solid #2222221A;
+    border-radius: 130px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    transform: rotate(45deg);
+    opacity: 1;
+}
+
+.Picture-load1 {
+    border-top-color: #10AC84;
+}
+
+.Picture-load2 {
+    border-right-color: #10AC84;
+}
+
+.Picture-load3 {
+    border-bottom-color: #10AC84;
+}
+
+.Picture-load4 {
+    border-left-color: #10AC84;
+}
+
+.Picture-active-Loading {
+    border: 10px solid #10AC84;
+}
+
+.Picture-innerWrapper {
+    transform: rotate(315deg);
+    display: flex;
+    flex-direction: column;
+}
+
+.Picture-percentageText {
+    color: #10AC84
+}
+
+.Picture-image {
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+    transform: rotate(315deg);
+}
