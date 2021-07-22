@@ -8,7 +8,6 @@ import {Formik} from 'formik';
 import Picture from "./Picture";
 import {atom, useRecoilState, useResetRecoilState} from "recoil";
 import {withRouter, RouteComponentProps, useParams, useHistory, useLocation} from "react-router-dom";
-import {PersonalData} from "../../entities/User";
 
 export const RANDOMUSER = false;  //wip randomUser usage of data
 
@@ -87,7 +86,6 @@ const ProfileformComponent: React.FunctionComponent<Props> = () => {
 
     const [isValid, setIsValid] = useState<boolean>(false);
     const [randomUser, setRandomUser] = useState<any>();
-    const [translatedRandomUser, setTranslatedRandomUser] = useState<any>();
     const [isLoading, setIsLoading] = useState<boolean>(false);
     const [progress, setProgress] = useState<number>(0);
 
@@ -110,9 +108,6 @@ const ProfileformComponent: React.FunctionComponent<Props> = () => {
     useEffect(() => {
         window.localStorage.setItem("randomUser", JSON.stringify(randomUser));
     }, [randomUser])
-    useEffect(() => {
-        window.localStorage.setItem("translatedRandomUser", JSON.stringify(translatedRandomUser));
-    }, [translatedRandomUser])
 
 // for animation
       useEffect(() => {
@@ -129,7 +124,7 @@ const ProfileformComponent: React.FunctionComponent<Props> = () => {
     }
 
 
-    const getFilteredRandomUser = () => {
+/*    const getFilteredRandomUser = () => {
         return randomUser !== undefined ? {
             firstName: randomUser.results[0].name.first,
             lastName: randomUser.results[0].name.last,
@@ -140,7 +135,7 @@ const ProfileformComponent: React.FunctionComponent<Props> = () => {
             city: randomUser.results[0].location.city,
         } as PersonalData : initialValues
 
-    }
+    }*/
 
     return (
         <>
